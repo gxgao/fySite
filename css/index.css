@@ -59,14 +59,41 @@
 
 .c-fullScreen{
     height:100vh;
+
+.c-roundCorners{
+    border-radius: 5px;
 }
 
+#c-aboutPara{
+    max-width: 570px;
+
+}
+
+#c-aboutParaBack{
+    max-width: 620px;
+}
+
+#c-aboutContentContainer{
+    margin-top: 20px;
+}
+
+
+.c-oneThird {
+    float: left;
+    width: 33.33%;
+  }
+
+  .c-twoThirds{
+    float: left;
+    width: 66.67%;
+  }
 .c-profileImage {
-    position: relative;
-    width: 300px;
+    width: 328px;
     height: auto;
     overflow: hidden;
     border-radius: 50%;
+    margin-left: 100px;
+    margin-bottom: 100px;
   }
 
 .c-background{

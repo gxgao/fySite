@@ -55,5 +55,11 @@
     border-radius: 50%;
   }
 
-
-
+.c-background{
+    
+    background-image: url('../assets/bgSky-unsplash.jpg');
+    background-repeat: no-repeat;
+    z-index:-1;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+}

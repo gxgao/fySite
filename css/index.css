@@ -85,12 +85,14 @@
 }
 
 .c-downArrowPosition{
+    position:absolute;
     max-width: 15vw;
     max-height:12vh;
     display:block;
     margin-right:auto;
     margin-left:auto;
-    bottom: 3vh;
+    bottom: 1vh;
+    left:50%;
     transition: transform .2s;
     opacity: 0.5;
 }

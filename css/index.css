@@ -46,12 +46,27 @@
     font-size: 20px;
 }
 
+.c-bigTitleFont{
+    font-size:120px;
+    position: relative;
+    margin-top: 5vh;
+    left: 10vw;
+    tab-size: 5vw;
+    margin-bottom: 2vh;
+    
+  
+}
+
+.c-fullScreen{
+    height:100vh;
+
 .c-roundCorners{
     border-radius: 5px;
 }
 
 #c-aboutPara{
     max-width: 570px;
+
 }
 
 #c-aboutParaBack{

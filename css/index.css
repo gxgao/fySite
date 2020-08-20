@@ -1,0 +1,41 @@
+:root{
+    --bgTop: #2D767F; 
+    --bgAbout: #D4F9F1;
+    --bgPara: #B4F1F1;
+    --bgBot: #0F4444;
+
+}
+
+.c-bgTop{
+    background-color:var(--bgTop);
+}
+
+.c-bgPara{
+    background-color:var(--bgPara);
+}
+
+.c-bgAbout{
+    background-color:var(--bgAbout);
+}
+
+.c-bgBot{
+    background:var(--bgBot)
+}
+
+.c-topColor{
+    color:var(--bgTop);
+}
+
+.c-paraColor{
+    color:var(--bgPara);
+}
+
+.c-aboutColor{
+    color:var(--bgAbout);
+}
+
+.c-fontColor{
+    color:var(--bgBot)
+}
+
+

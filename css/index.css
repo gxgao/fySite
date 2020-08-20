@@ -59,6 +59,7 @@
 
 .c-fullScreen{
     height:100vh;
+}
 
 .c-roundCorners{
     border-radius: 5px;
@@ -77,6 +78,21 @@
     margin-top: 20px;
 }
 
+.c-downArrowPosition{
+    max-width: 15vw;
+    max-height:12vh;
+    display:block;
+    margin-right:auto;
+    margin-left:auto;
+    bottom: 3vh;
+    transition: transform .2s;
+    opacity: 0.5;
+}
+
+.c-downArrowHover:hover{
+    max-width: 10vw;
+    transform: scale(1.5);
+}
 
 .c-oneThird {
     float: left;
@@ -103,4 +119,6 @@
     z-index:-1;
     background-attachment: fixed;
     background-size: 100vw 100vh;
+    
 }
+

@@ -78,30 +78,54 @@
     margin-top: 20px;
 }
 
+#aboutContact{
+    float: left;
+    text-align:center;
+}
 
 .c-oneThird {
     float: left;
     width: 33.33%;
-  }
+}
 
-  .c-twoThirds{
+.c-twoThirds{
     float: left;
     width: 66.67%;
-  }
+}
+
 .c-profileImage {
     width: 328px;
-    height: auto;
-    overflow: hidden;
     border-radius: 50%;
     margin-left: 100px;
     margin-bottom: 100px;
-  }
+    border: 5px solid var(--bgPara);
+}
+
+.c-linkHover {
+    text-decoration: none;
+    margin-left:10px;
+}
+
+.c-contactText{
+    margin-left:20px;
+}
+
+.c-linkHover :hover{
+    color: var(--bgTop)
+}
 
 .c-background{
-    
     background-image: url('../assets/bgSky-unsplash.jpg');
     background-repeat: no-repeat;
     z-index:-1;
     background-attachment: fixed;
     background-size: 100vw 100vh;
+}
+
+#bot{
+    min-height: 70px;
+}
+
+.c-bottomText{
+    padding: 35px;
 }

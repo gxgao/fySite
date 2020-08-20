@@ -127,7 +127,7 @@
 }
 
 .c-contactText{
-    margin-left:20px;
+    margin-left:10px;
 }
 
 .c-linkHover :hover{
@@ -151,3 +151,10 @@
     padding: 35px;
 }
 
+
+
+
+/* for smaller screens */
+@media only screen and (min-width: 400px) {
+    
+}

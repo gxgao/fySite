@@ -34,8 +34,26 @@
     color:var(--bgAbout);
 }
 
-.c-fontColor{
+.c-textColor{
     color:var(--bgBot)
 }
+
+.c-title{
+    font-size: 50px;
+}
+
+.c-paraFont{
+    font-size: 20px;
+}
+
+
+.c-profileImage {
+    position: relative;
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
 
 

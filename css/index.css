@@ -78,11 +78,12 @@
     margin-top: 20px;
 }
 
-<<<<<<< HEAD
+
 #aboutContact{
     float: left;
     text-align:center;
-=======
+}
+
 .c-downArrowPosition{
     max-width: 15vw;
     max-height:12vh;
@@ -97,7 +98,7 @@
 .c-downArrowHover:hover{
     max-width: 10vw;
     transform: scale(1.5);
->>>>>>> 62424b13d5fde9bc3a703b6ba0892b3bf82bb990
+
 }
 
 .c-oneThird {
@@ -140,7 +141,6 @@
     
 }
 
-<<<<<<< HEAD
 #bot{
     min-height: 70px;
 }
@@ -148,5 +148,4 @@
 .c-bottomText{
     padding: 35px;
 }
-=======
->>>>>>> 62424b13d5fde9bc3a703b6ba0892b3bf82bb990
+

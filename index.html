@@ -25,7 +25,18 @@
             position: relative;
             left:60vw;
             line-height: 0.3;
-            z-index: -1;
+        }
+        .c-projectGap{
+            margin-bottom: 1%;
+        }
+        #aboutDescriber{
+            width: 60%;
+            margin-top: 1vh;
+            margin-bottom: 5%;
+            margin-right: auto;
+            margin-left: auto;
+            text-align: center;
+
         }
     </style>
 
@@ -53,25 +64,30 @@
             I'm a Developer
         </p>
 
-        <a href='#about'><img class='w3-center c-downArrowPosition c-downArrowHover' 
+        <a href='#About'><img class='w3-center c-downArrowPosition c-downArrowHover' 
         src="../fySite/assets/downArrow.png" alt="Going Down" > </a>
     </div>
 
     <!--About-->
+
+    <div class="c-bgAbout w3-container w3-center">
+        <a id='About'><p class="w3-center c-title c-textColor">About</p></a>
+
     <div id="about" class="c-bgAbout w3-container w3-center">
         <p class="w3-center c-title c-textColor">About</p>
+
 
         <!--Row-->
         <div>
 
-            <img class="c-profileImage c-oneThird" src="assets/rsz_profpic.jpg" alt="Frank's Face!">
+            <img class="c-profileImage c-oneThird w3-container" src="assets/rsz_profpic.jpg">
 
             <!--Content (Right side)-->
             <div id="c-aboutContentContainer" class="c-twoThirds w3-container">
                 <div id="c-aboutParaBack" class="c-bgPara c-roundCorners w3-container w3-center">
                     <p id="c-aboutPara" class="c-textColor w3-container"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
                 </div>
-                
+      
                 <!--Contact Info-->
                 <br>
                 <br>
@@ -82,6 +98,9 @@
                     <u class="c-contactText"> (437) 221 4036</u>
                 </p>
 
+                <div>
+
+                </div>
             </div>
 
         </div>
@@ -89,18 +108,74 @@
     </div>
 
     <!--Resume-->
+
+    <div class=" w3-container w3-center">
+        <p>Resume</p>
+
     <div id="resume"class="c-bgResume w3-container w3-center">
         <p class="w3-center c-title c-textColor">Resume</p>
+
     </div>
 
     <!--Projects-->
-    <div id="projects"class="c-bgAbout w3-container w3-center">
+    <div class="c-bgAbout w3-container w3-center c-textColor">
+        <p class='c-title c-projectGap'>Projects</p>
+        <div class='c-paraFont'>
+            <p id='aboutDescriber' >Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi </p>   
+                
+            <div class='w3-container c-bgPara c-projectBox ' >
+                <img class='w3-center c-imageDescriber' 
+                    src="../fySite/assets/ProfPic.jpg" alt="Going Down" >
+                <p class='c-projectDescriber '>Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi </p>    
+                <p class='c-projectDescriber c-git'>
+                    <a href="https://github.com/frankyang3" class="c-gitHubHover">
+                        <i class="fa fa-github fa-1x">  GitHub Link</i> 
+                    </a>
+                </p>
+            </div>
+            <div class='w3-container c-bgPara c-projectBox ' >
+                <img class='w3-center c-imageDescriber' 
+                    src="../fySite/assets/ProfPic.jpg" alt="Going Down" >
+                <p class='c-projectDescriber '>Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi </p>    
+                <p class='c-projectDescriber c-git'>
+        
+                    <a href="https://github.com/frankyang3" class="c-gitHubHover">
+                        <i class="fa fa-github fa-1x">  GitHub Link</i> 
+                    </a>
+                        
+                </p>
+            </div>
+            <div class='w3-container c-bgPara c-projectBox ' >
+                <img class='w3-center c-imageDescriber' 
+                    src="../fySite/assets/ProfPic.jpg" alt="Going Down" >
+                <p class='c-projectDescriber '>Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi </p>    
+                <p class='c-projectDescriber c-git'>
+        
+                    <a href="https://github.com/frankyang3" class="c-gitHubHover">
+                        <i class="fa fa-github fa-1x">  GitHub Link</i> 
+                    </a>
+                        
+                </p>
+            </div>
+        </div>
         
     </div>
 
     <!--Bottom Bar-->
-    <div id="bot" class="c-bgBot w3-container w3-center">
-        <p class="c-bottomText">© 2020 Frank Yang. All rights reserved.</p>
+    <div class="c-bgBot w3-container w3-center">
+        <p>HI </p>
     </div>
 
 

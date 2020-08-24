@@ -133,12 +133,12 @@
     margin-left:10px;
 }
 
-.c-contactText{
-    margin-left:10px;
-}
-
 .c-linkHover :hover{
     color: var(--bgTop)
+}
+
+.c-contactText{
+    margin-left:10px;
 }
 
 .c-background{
@@ -205,10 +205,6 @@
     width: 60%;
     margin-bottom: 1%;
     margin-top: 5%;
-}
-
-.c-gitHubHover:hover{
-    color: var(--bgTop);
 }
 
 .c-projectBox{

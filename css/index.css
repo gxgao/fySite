@@ -153,3 +153,31 @@
     padding: 35px;
 }
 
+.c-imageDescriber{
+    float: left;
+    max-width: 25%;
+    max-height: 25%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+
+}
+
+.c-projectDescriber{
+    float:right;
+    width: 60%;
+    margin-bottom: 1%;
+    margin-top: 5%;
+}
+
+.c-gitHubHover:hover{
+    color: var(--bgTop);
+}
+
+.c-projectBox{
+    margin-right: 10%;
+    margin-left:10%;
+    margin-bottom: 5%
+
+}
+

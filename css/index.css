@@ -3,7 +3,7 @@
     --bgAbout: #D4F9F1;
     --bgPara: #B4F1F1;
     --bgBot: #0F4444;
-
+    --bgResume: #ffffff
 }
 
 .c-bgTop{
@@ -16,6 +16,10 @@
 
 .c-bgAbout{
     background-color:var(--bgAbout);
+}
+
+.c-bgResume{
+    background-color:var(--bgResume);
 }
 
 .c-bgBot{
@@ -73,6 +77,7 @@
 
 #c-aboutParaBack{
     max-width: 620px;
+   
 }
 
 #c-aboutContentContainer{
@@ -81,7 +86,7 @@
 
 
 #aboutContact{
-    float: left;
+    float: center;
     text-align:center;
 }
 
@@ -129,7 +134,7 @@
 }
 
 .c-contactText{
-    margin-left:20px;
+    margin-left:10px;
 }
 
 .c-linkHover :hover{
@@ -152,6 +157,7 @@
 .c-bottomText{
     padding: 35px;
 }
+
 
 .c-imageDescriber{
     float: left;
@@ -191,3 +197,24 @@
 
 }
 
+
+
+
+
+
+@media only screen and (max-width: 1350px) {
+    .c-oneThird{
+        float:none;
+ 
+    }
+    .c-twoThirds{
+        float:none;
+        width: auto;
+    }
+    #c-aboutParaBack{
+        margin:auto;
+    }
+    .c-profileImage{
+        margin-left:0px;
+    }
+}
